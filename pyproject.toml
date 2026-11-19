@@ -1,0 +1,17 @@
+[project]
+name = "soybean-idc-causal"
+version = "0.2.0"
+description = "Causal marker discovery for soybean iron deficiency chlorosis"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "causal-learn==0.1.4.8",
+    "doubleml==0.10.1",
+    "scikit-learn==1.6.1",
+    "numpy==2.0.2",
+    "pandas==2.3.3",
+    "networkx==3.2.1",
+    "scipy==1.13.1",
+    "matplotlib==3.9.4",
+    "joblib",
+]
